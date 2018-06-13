@@ -1,0 +1,23 @@
+{
+  "name": "encoder-ffmpeg",
+  "version": "0.0.1",
+  "description": "service to encode",
+  "main": "index.js",
+  "repository": "https://github.com/ben33/encoder-ffmpeg.git",
+  "author": "Benjamin FOSSES",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --legacy-watch --watch src --experimental-modules src/index.mjs",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "file-extension": "^4.0.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^5.0.0",
+    "jackrabbit": "https://github.com/pagerinc/jackrabbit.git",
+    "lodash": "^4.17.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}
